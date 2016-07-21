@@ -66,6 +66,7 @@
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 2px;
     color: white;
     font-family: 'Helvetica Neue';
 }
@@ -74,7 +75,7 @@
 }
 .entrar:hover {
     background: #4eabda;
-    height:26px;
+    
 }
 .main {
     width: 540px;
