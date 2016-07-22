@@ -53,43 +53,39 @@
         </div>
         <div class="main">
             <p>
-                <a href="#"><img class="im" src="img/but.jpg" width="275" height="33" alt="f">
+                <a href="https://www.facebook.com/"><img class="im" src="img/but.jpg" width="275" height="33" alt="f">
                 </a>
             </p>
             <p class="ou"><span>OU</span>
             </p>
             <div class="forms">
-                <form class="inf" action=# method=get>
+                <form class="inf" id="data" action=# method=get>
                     <p>
-                        <input type=text name="usrname" id="firstname" placeholder="First name" required="required">
+                        <input type=text name="fname" id="firstname" placeholder="First name" required="required">
                     </p>
 
-
                     <p>
-                        <input type=text name="usrname" id="lastname" placeholder="Last name" required="required">
+                        <input type=text name="lname" id="lastname" placeholder="Last name" required="required">
                     </p>
 
-
                     <p>
-                        <input type=text name="usrname" id="emailaddress" placeholder="Email Address" required="required">
+                        <input type=text name="mail" id="emailaddress" placeholder="Email Address" required="required">
                     </p>
 
-
                     <p>
-                        <input type="password" name="usrname" id="password" placeholder="Choose Password" required="required">
+                        <input type="password" name="usrpass" id="password" placeholder="Choose Password" required="required">
                     </p>
 
-
                     <p>
-                        <input type="password" name="usrname" id="passwordconfirm" placeholder="Password Confirm" required="required">
+                        <input type="password" name="usrpassconf" id="passwordconfirm" placeholder="Password Confirm" required="required">
                     </p>
                 </form>
             </div>
             <div class="checkbox">
                 <p>
-                    <input type="checkbox" name="a" value="#">Send me Youbike updates and tips</p>
+                    <input type="checkbox" name="checkbox" value="yes" form="data">Send me Youbike updates and tips</p>
             </div>
-            <div><a href="#" class="cma">Create my account</a>
+            <div><p class="cma"> <input type="submit" value="Create my account" name="createacc" form="data"></p>
             </div>
         </div>
         <div class="pp">
